@@ -1,0 +1,15 @@
+.\main.o: ..\main.c
+.\main.o: ..\keic\main.h
+.\main.o: ..\keic\GPIO.h
+.\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h
+.\main.o: ..\..\Lib\CMSIS\CM3\CoreSupport\core_cm3.h
+.\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h
+.\main.o: ..\keic\RCC.h
+.\main.o: ..\keic\I2C.h
+.\main.o: ..\keic\RTC.h
+.\main.o: ..\keic\GY80.h
+.\main.o: ..\keic\I2c.h
+.\main.o: ..\keic\mpu6050.h
+.\main.o: ..\keic\I2c.h
+.\main.o: ..\keic\TIM.h

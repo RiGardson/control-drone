@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+".\startup_stm32f10x_md.o"
+".\core_cm3.o"
+".\stm32f10x_it.o"
+".\system_stm32f10x.o"
+".\main.o"
+".\gpio.o"
+".\i2c.o"
+".\mpu6050.o"
+".\rcc.o"
+".\rtc.o"
+".\tim.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Control_drone.map" -o .\Control_drone.axf
